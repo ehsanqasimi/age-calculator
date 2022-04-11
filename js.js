@@ -6,6 +6,10 @@ let input = document.querySelector('#input')
 let now = new Date()
 let values
 
+console.log(input.max)
+input.max = `${now.getFullYear()}-0${now.getMonth()}-${now.getDate()}`
+console.log(input.max)
+
 myBtn.addEventListener("click", calculateAge)
 
 function calculateAge(){
@@ -14,17 +18,17 @@ function calculateAge(){
 
     values = {
         year: now.getFullYear() - valueSplitted[0],
-        month: now.getMonth() - valueSplitted[1],
+        month: now.getMonth() - valueSplitted[1] + 1,
         day: now.getDate() - valueSplitted[2]
     }
     console.log(now)
     if(values.month < 0){
-        values.month +=  13
+        values.month +=  12
         values.year -= 1
     }
     if(values.day < 0){
         values.day +=  30
-        values.month -= 1
+        values.month - 1
     }
 
 
