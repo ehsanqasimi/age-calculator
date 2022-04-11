@@ -56,12 +56,17 @@ body{
     height: 45vh;
     font-size: 23px;
 }
+.top{
+    display: flex;
+
+}
 
 #par{
     color: rgb(74, 250, 133);
-    margin-left: 10px;
+    margin-right: 0px;
     font-size: 15px;
-    
+    border: 2px solid red;
+    width: 100px;
 }
 .description{
     color: white;

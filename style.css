@@ -68,10 +68,18 @@ body {
   font-size: 23px;
 }
 
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #par {
   color: #4afa85;
-  margin-left: 10px;
+  margin-right: 0px;
   font-size: 15px;
+  border: 2px solid red;
+  width: 100px;
 }
 
 .description {
