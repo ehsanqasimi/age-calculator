@@ -35,7 +35,7 @@ function calculateAge(){
 
     par.innerHTML = "you are " 
     + values.year
-    + " years old and " + values.month
+    + " years and " + values.month
     + " months and " + values.day + " days old."
 }
 
