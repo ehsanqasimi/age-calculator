@@ -3,13 +3,13 @@
 let hal = new Date().getHours()
 
 if (hal <= 12){
-  document.write("Good Morning, I hope you have a good day")
+  document.write("<p style='color:green; font-size:15px; position:absolute; top:0;'>Good Morning, I hope you have a good day</p> ")
 } else if (hal > 13 || hal < 19 ){
-  document.write("Good Afternoon, I hope you had a good day")
+  document.write("<p style='color:green; font-size:15px; position:absolute; top:0;'>Good Afternoon, I hope you had a good day</p> ")
 }else if (hal >= 19 || hal <= 22){
-  document.write("Good night, I hope you had a good day")
+  document.write("<p style='color:green; font-size:15px; position:absolute; top:0;'>Good Night, I hope you had a good day</p> ")
 }else{
-  document.write("good night! sleep early, wake up early and ")
+  document.write("<p style='color:green; font-size:15px; position:absolute; top:0;'>Good Night, Sleep early wake up early</p> ")
 }
 //greeting ends
 
