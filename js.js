@@ -3,13 +3,13 @@
 let hal = new Date().getHours()
 
 if (hal <= 11){
-  document.write("<p style='color:green; font-size:20px; position:absolute; top:5px; left:5px; font-weight:700;'>Good Morning, I hope you have a good day</p> ")
+  document.write("<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Morning, I hope you have a good day</p> ")
 } else if (hal > 13 && hal < 11 ){
-  document.write("<p style='color:green; font-size:20px; position:absolute; top:5px; left:5px; font-weight:700;'>Good Afternoon, I hope you had a good day</p> ")
+  document.write("<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Afternoon, I hope you had a good day</p> ")
 }else if (hal >= 19 && hal <= 21){
-  document.write("<p style='color:green; font-size:20px; position:absolute; top:5px; left:5px; font-weight:700;'>Good Night, I hope you had a good day</p> ")
+  document.write("<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Night, I hope you had a good day</p> ")
 }else{
-  document.write("<p style='color:green; font-size:20px; position:absolute; top:5px; left:5px; font-weight:700;'>Good Night, Sleep early wake up early</p> ")
+  document.write("<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Night, Sleep early wake up early</p> ")
 }
 //greeting ends
 
