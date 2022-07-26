@@ -2,14 +2,16 @@
 //var is "hal" instead of "now" cuz I have declared "now" alreadt.This time I wrote hal which means now in persian/dari
 let hal = new Date().getHours()
 
-if (hal <= 11){
+if (hal <= 11 && hal >= 5){
   document.write("<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Morning, I hope you have a good day</p> ")
-} else if (hal > 13 && hal < 11 ){
+} else if (hal > 12 && hal < 16 ){
   document.write("<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Afternoon, I hope you had a good day</p> ")
-}else if (hal >= 19 && hal <= 21){
+}else if (hal <= 19 && hal >= 16){
+  document.write(`<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Evening, I hope you had a good day</p>`)
+}else if (hal >= 19 && hal <= 23){ 
   document.write("<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Night, I hope you had a good day</p> ")
 }else{
-  document.write("<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Night, Sleep early wake up early</p> ")
+  document.write(`<p style='color:green; font-size:16px; position:absolute; top:5px; left:5px; font-weight:600;'>Good Night, Sleep Early and get up early!</p>`)
 }
 //greeting ends
 
